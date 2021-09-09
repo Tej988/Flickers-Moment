@@ -44,7 +44,7 @@ const Photo = () => {
                 <div className="row mb-2">
                     {output.map((pic) => (
 
-                        <img className="card col-md-4 p-1 " src={pic.urls.small}></img>))}
+                        <img className="card col-md-4 p-1 " src={pic.urls.small} alt="0"></img>))}
                 </div>
                
 
